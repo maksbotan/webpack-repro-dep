@@ -1,3 +1,5 @@
 console.log("hello");
 
-export default "dep";
+import { bar } from './Module';
+
+export default `dep ${bar}`;
